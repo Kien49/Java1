@@ -29,7 +29,7 @@ public class b147 {
             double[] arr = new double[n];
             Random random = new Random();
             for (int i =0; i< n; i++){
-                arr[i] = random.nextDouble()-100;
+                arr[i] = random.nextDouble(200)-100;
                 System.out.printf("%f ",arr[i]);
             }
 
