@@ -26,7 +26,7 @@ public class b142 {
             double[] arr = new double[n];
             Random random = new Random();
             for (int i =0; i< n; i++){
-                arr[i] = random.nextDouble(500);
+                arr[i] = random.nextDouble();
                 System.out.printf("%f ",arr[i]);
             }
 
